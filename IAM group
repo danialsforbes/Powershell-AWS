@@ -1,0 +1,2 @@
+PS C:\> New-IAMGroup -Patch "/ps-created-groups/" -GroupName "powerUsers"
+//creates an IAM group
