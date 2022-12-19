@@ -1,0 +1,3 @@
+PS C:\> New-IAMUser -Path "/ps-created-users/" -UserName "myNewUser"
+
+//creates a new IAM user
