@@ -1,0 +1,3 @@
+PS C:\> Add-IAMUserToGroup -UserName myNewUser -GroupName powerUsers
+
+//adds an IAM user to a group
