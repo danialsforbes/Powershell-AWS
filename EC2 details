@@ -1,0 +1,6 @@
+PS C:\> $reservation = New-Object 'collections.generic.list[string]'
+$reservatoin.add("r-5caa4371")
+$filter_reservation = New-Object Amazon.EC2.Model.Filter -Property @{Name = "reservation-id"; Values = $reservation}
+(Get-EC2Instance -FIlter $filter_reservation).Instances
+
+//an example of powershell command to view EC2 instance details by filtering on the previous reservation ID
