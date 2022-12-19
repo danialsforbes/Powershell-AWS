@@ -1,0 +1,2 @@
+PS C:\> New-S3Bucket -BusketName website-example -Region us-west-1 
+//creates a new S3 bucket
