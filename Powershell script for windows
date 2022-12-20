@@ -1,0 +1,11 @@
+<powershell>
+#Install IIS and Web
+#Management Tools.
+
+Import-Module ServerManager
+
+Install-WindowsFeature
+      web-server, web-webserver
+Install-WindowsFeature
+      web-mgmt-tools
+</powershell>
